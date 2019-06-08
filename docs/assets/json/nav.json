@@ -1,0 +1,91 @@
+[
+  {
+    "num": "01",
+    "name": "概览",
+    "max-height": "100px",
+    "items": [
+      {
+        "key": "介绍",
+        "router": "/introduction"
+      },
+      {
+        "key": "快速上手",
+        "router": "/quick-start"
+      }
+    ]
+  },
+  {
+    "num": "02",
+    "name": "组件",
+    "max-height": "520px",
+    "items": [
+      {
+        "name": "基础",
+        "items": [
+          {
+            "key": "Button",
+            "router": "/button"
+          },
+          {
+            "key": "Tabs",
+            "router": "/tabs"
+          }
+        ]
+      },
+      {
+        "name": "表单",
+        "items": [
+          {
+            "key": "Input",
+            "router": "/input"
+          },
+          {
+            "key": "Select",
+            "router": "/select"
+          },
+          {
+            "key": "Switch",
+            "router": "/switch"
+          }
+        ]
+      },
+      {
+        "name": "弹出层",
+        "items": [
+          {
+            "key": "Drawer",
+            "router": "/drawer"
+          },
+          {
+            "key": "Dialog",
+            "router": "/dialog"
+          },
+          {
+            "key": "Picker",
+            "router": "/picker"
+          },
+          {
+            "key": "Toast",
+            "router": "/toast"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "num": "03",
+    "name": "模块",
+    "max-height": "100px",
+    "items": [
+      {
+        "name": "style",
+        "items": [
+          {
+            "key": "iconfont",
+            "router": "/iconfont"
+          }
+        ]
+      }
+    ]
+  }
+]

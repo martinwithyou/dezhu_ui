@@ -1,0 +1,41 @@
+@import "../animation/index";
+@import "../common/custom";
+@import "../common/mixin";
+
+@toast-prefix-cls: ~"@{css-prefix}toast";
+@iconfont-prefix-cls: ~"@{css-prefix}iconfont";
+
+.@{toast-prefix-cls} {
+  position: fixed;
+  top: 0;
+  left: 0;
+  .@{iconfont-prefix-cls} {
+    &-caution, &-failure, &-success {
+      &:before {
+        font-size: 72px;
+        padding-top: 30px;
+        padding-bottom: 20px;
+        display: grid;
+      }
+    }
+  }
+  &-container {
+    position: fixed;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 22%;
+    width: 450px;
+    font-family: "PingFang-SC-Medium";
+    text-align: center;
+    color: #FFF;
+  }
+  p {
+    font-size: 28px;
+    border-radius: 8px;
+    line-height: 42px;
+    background: rgba(0, 0, 0, .8);
+    display: inline-block;
+    padding: 15px 30px;
+    word-break: break-word;
+  }
+}

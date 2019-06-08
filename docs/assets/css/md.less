@@ -1,0 +1,122 @@
+.md {
+  .language-bash {
+    color: #E9E9E9;
+  }
+  .language-js, .language-html, .language-bash {
+    color: #E9E9E9;
+    .hljs-comment {
+      color: #6C6855;
+    }
+    .hljs-keyword, .hljs-name {
+      color: #F5006A;
+    }
+    .hljs-attr {
+      color: #78A523;
+    }
+    .hljs-string, .hljs-variable, .hljs-template-variable, .hljs-strong, .hljs-emphasis, .hljs-quote {
+      color: #E4DB6D;
+    }
+  }
+  h1, h2, h3, h4 {
+    position: relative;
+    color: #444;
+    font-size: 1.2em;
+    margin: 1.5em 0 1.2em;
+    .anchor {
+      opacity: 0;
+      left: -20Px;
+      top: 50%;
+      position: absolute;
+      transform: translate(0, -50%);
+      cursor: pointer;
+    }
+  }
+  h1:hover, h2:hover, h3:hover, h4:hover {
+    .anchor {
+      opacity: 1;
+    }
+  }
+}
+
+.md h1 {
+  font-size: 2em;
+}
+.md h3 {
+  font-size: 1em;
+}
+.md p {
+  line-height: 1.6rem;
+}
+.md ul {
+  list-style-type: disc;
+  margin: 10Px 0;
+}
+.md ul li {
+  margin-left: 30Px;
+  line-height: 1.6rem;
+}
+.md hr {
+  border: 0;
+  border-bottom: 1Px solid #f0f0f0;
+}
+.md pre {
+  background-color: #333;
+  padding: 20Px;
+  border-radius: 10Px;
+  margin: 1.2em 0;
+  overflow: auto;
+}
+.md p > code, li > code, td > code {
+  background-color: #eee;
+  padding: 2Px;
+  color: #26a2ff;
+}
+.md blockquote {
+  margin-bottom: 20Px;
+}
+.md a {
+  color: #4078c0;
+  text-decoration: none;
+}
+.md ::-webkit-scrollbar {
+  /*width: 0;*/
+}
+.md table {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 16Px;
+  margin-bottom: 1rem;
+  table-layout: fixed;
+  background-color: #fff;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.md table thead th {
+  font-weight: 400;
+  background-color: #f4f5f7;
+}
+.md table td, table th {
+  vertical-align: top;
+  padding: 8Px;
+  border: 1Px solid #eee;
+  text-align: left;
+  color: #656b79;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+// .md table th:nth-child(3),
+.md table th:nth-child(5) {
+  width: 30%;
+  @media screen and (max-width: 960px) {
+    width: auto;
+  }
+}
+.md table th:nth-child(4) {
+  width: 80Px;
+  @media screen and (max-width: 960px) {
+    width: auto;
+  }
+}
+.hljs-string, .hljs-variable, .hljs-template-variable, .hljs-strong, .hljs-emphasis, .hljs-quote {
+  color: #df5000;
+}
